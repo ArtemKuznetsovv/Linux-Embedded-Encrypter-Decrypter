@@ -32,3 +32,10 @@ For example:
     ```
     $ sudo ./encrypter.out -n 10 -l 16 
     ``` 
+    
+ ## What I Learned:
+ 
+ 1. Communicating between multiple threads
+ 2. Synchronizing multiple thread by using Mutex locks and Condition variables
+ 3. Working with Shared libraries
+ 4. Using cryptographic libraries
