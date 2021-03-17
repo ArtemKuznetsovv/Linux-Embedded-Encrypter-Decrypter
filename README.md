@@ -29,6 +29,6 @@ The application illustrates a password hacking scenario using brute force techni
     ```
    
 For example:
-    ```sh
+    ```
     $ sudo ./encrypter.out -n 10 -l 16 
     ``` 
