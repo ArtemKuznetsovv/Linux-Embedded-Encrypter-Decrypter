@@ -15,11 +15,20 @@ The application illustrates a password hacking scenario using brute force techni
 
 1. Clone this repository to your local machine.
 2. Install openssl 
- ```sh
+   ```sh
     $ sudo apt-get install libssl-dev
     ```
-4. To use the encryption and decryption libraries, install the .deb package by running: sudo dpkg --install mta-utils-dev.deb
-5. Execute the Make command
-6. Run through the bash terminal: sudo ./encrypter.out -n <Number_Of_Decrypters> -l <Password_Length> -t <Seconds_To_Wait_For_Encrypter>
-
-* For example: sudo ./encrypter.out -n 10 -l 16 
+3. To use the encryption and decryption libraries, install the .deb package:
+    ```sh
+    $ sudo dpkg --install mta-utils-dev.deb
+    ```
+4. Execute the Make command
+5. Run through the bash terminal:
+    ```sh
+    $ sudo ./encrypter.out -n <Number_Of_Decrypters> -l <Password_Length> -t <Seconds_To_Wait_For_Encrypter>
+    ```
+   
+For example:
+    ```sh
+    $ sudo ./encrypter.out -n 10 -l 16 
+    ``` 
